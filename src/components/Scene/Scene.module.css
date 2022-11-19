@@ -1,0 +1,28 @@
+.root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #dfdbe5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.scene {
+  position: relative;
+  border-style: double;
+  border-color: deepskyblue;
+  border-radius: 6px;
+  border-width: 3px;
+  box-sizing: border-box;
+  width: 90%;
+  height: 90%;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
